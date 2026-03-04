@@ -278,3 +278,13 @@ section {
 .contact-info p {
   color: var(--text-primary);
 }
+
+.contact-info a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
