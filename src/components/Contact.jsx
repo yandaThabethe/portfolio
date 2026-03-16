@@ -33,7 +33,7 @@ function Contact() {
         </p>
 
         <p>
-          <strong>Location:</strong> Midrand, South Africa
+          <strong>Location:</strong> Pretoria, Gauteng, South Africa
         </p>
       </div>
     </section>
