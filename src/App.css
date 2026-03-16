@@ -7,13 +7,23 @@
 
 /* Color variables */
 :root {
-  --bg-color: #e8cfc9;       /* soft rose gold background */
-  --text-primary: #3a2f2f;   /* darker text for readability */
-  --text-secondary: #6e5c5c;
-  --accent: #b88b8b;         /* rose accent color */
-  --button-bg: #f5e6e3;
-  --button-hover: #e6c9c4;
-  --card-bg: #d9b8b2;        /* darker rose for cards */
+
+  --bg-color: #1e2227;       /* Deep Charcoal/Slate */
+  --card-bg: #282c34;        /* "One Dark" grey for contrast */
+  
+  /* Text: Clean and crisp */
+  --text-primary: #abb2bf;   /* Soft silver-grey for main text */
+  --text-secondary: #5c6370; /* Muted stone-grey for descriptions */
+  
+  /* The "Code" Accents: Vibrant but professional */
+  --accent: #61afef;         /* Electric Blue (React/Logic vibe) */
+  --keyword-color: #c678dd;  /* Purple (Syntax/Class vibe) */
+  --function-color: #98c379; /* Soft Green (Success/Action vibe) */
+  
+  /* Interactive Elements */
+  --button-bg: #353b45;      /* Elevated grey */
+  --button-hover: #4b5263;   /* Lighter slate hover */
+  --border-color: #3e4451;   /* Subtle divider lines */
 }
 
 /* Page styling */

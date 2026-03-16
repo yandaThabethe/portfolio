@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Projects() {
   return (
@@ -6,46 +6,52 @@ function Projects() {
       <h2>Projects</h2>
 
       <div className="projects-container">
+
         <div className="project-card">
-          <h3>Login System</h3>
+          <h3>AI CV Analyzer</h3>
           <p>
-            A full-stack login and authentication system built with React and
-            Java.
+            A full-stack web application that allows recruiters to create job
+            postings, upload CVs, and analyze candidate qualifications based on
+            job requirements.
           </p>
 
-          <div className="tech">React • Java • REST API</div>
-
-          <div className="project-links">
-            <a href="#">GitHub</a>
-            <a href="#">Live Demo</a>
+          <div className="tech">
+            Python • Django • React • PostgreSQL • REST APIs
           </div>
-        </div>
-
-        <div className="project-card">
-          <h3>Task Manager</h3>
-          <p>A web application for managing tasks and tracking productivity.</p>
-
-          <div className="tech">React • Node.js • PostgreSQL</div>
 
           <div className="project-links">
-            <a href="#">GitHub</a>
-            <a href="#">Live Demo</a>
+            <a href="https://github.com/yandaThabethe/cv-analyzer" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
           </div>
         </div>
 
         <div className="project-card">
           <h3>Portfolio Website</h3>
           <p>
-            My personal portfolio built with React to showcase my projects and
-            skills.
+            My personal portfolio built with React to showcase projects,
+            technical skills, and professional experience.
           </p>
 
-          <div className="tech">React • CSS • JavaScript</div>
+          <div className="tech">
+            React • Vite • JavaScript • CSS
+          </div>
 
           <div className="project-links">
-            <a href="#">GitHub</a>
+            <a href="https://github.com/yandaThabethe/portfolio" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+
+            <a
+              href="https://portfolio-nine-sepia-28.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
           </div>
         </div>
+
       </div>
     </section>
   );

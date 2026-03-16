@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Ayanda</h2>
+      <h2 className="logo">Ayanda Thabethe</h2>
 
       <ul className="nav-links">
         <li><a href="#home">Home</a></li>
