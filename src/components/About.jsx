@@ -12,7 +12,7 @@ function About() {
         and PostgreSQL, developing RESTful APIs, and designing workflow and
         system architecture diagrams. Proven ability to troubleshoot live
         systems, implement SQL-based data fixes, conduct system health checks,
-        and write both unit tests and endto-end tests to ensure high-quality,
+        and write both unit tests and end-to-end tests to ensure high-quality,
         stable deployments. Strong team collaborator with experience in Agile
         delivery, version control, PBI creation, and technical training.
         Currently pursuing an Advanced Diploma in Computer Science and
