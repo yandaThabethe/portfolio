@@ -1,5 +1,4 @@
 function Hero() {
-
   const scrollToProjects = () => {
     document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
   };
@@ -10,26 +9,23 @@ function Hero() {
 
   return (
     <section id="home" className="hero">
-
       {/* Left side - Introduction */}
       <div className="hero-content">
         <h1>Hi, I'm Ayanda Thabethe</h1>
         <h2>Software Engineer</h2>
 
         <p>
-          Junior Software Engineer with experience in full-stack development,
-          REST APIs, and database management. Passionate about building scalable
-          applications and continuously learning new technologies.
+          Software Engineer with experience in full-stack development,
+          enterprise production support, Business Intelligence, and database
+          management. Skilled in building scalable applications, troubleshooting
+          enterprise systems, developing data-driven solutions, and improving
+          business processes through technology.
         </p>
 
         <div className="hero-buttons">
-          <button onClick={scrollToProjects}>
-            View Projects
-          </button>
+          <button onClick={scrollToProjects}>View Projects</button>
 
-          <button onClick={scrollToContact}>
-            Contact Me
-          </button>
+          <button onClick={scrollToContact}>Contact Me</button>
         </div>
       </div>
 
@@ -45,7 +41,9 @@ function Hero() {
           </div>
 
           <div className="code-content">
-            <p><span>def</span> build_solutions():</p>
+            <p>
+              <span>def</span> build_solutions():
+            </p>
             <p className="code-indent">
               return <span>"Better Systems"</span>
             </p>
@@ -69,7 +67,6 @@ function Hero() {
           <div> ◈ </div>
         </div>
       </div>
-
     </section>
   );
 }

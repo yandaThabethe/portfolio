@@ -1,24 +1,41 @@
-import React, { useState } from "react";
-
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="about">
+      <h2>About Me</h2>
+
       <p>
-        Junior Software Engineer with hands-on experience in full-stack
-        development, production support, end-to-end testing, and database
-        management across enterprise environments at Deloitte and Artificial
-        intelligence Campus (previously known as Empire Partner Foundation
-        Innovation Campus). Skilled in building web applications using Django
-        and PostgreSQL, developing RESTful APIs, and designing workflow and
-        system architecture diagrams. Proven ability to troubleshoot live
-        systems, implement SQL-based data fixes, conduct system health checks,
-        and write both unit tests and end-to-end tests to ensure high-quality,
-        stable deployments. Strong team collaborator with experience in Agile
-        delivery, version control, PBI creation, and technical training.
-        Currently pursuing an Advanced Diploma in Computer Science and
-        continuously growing across backend, DevOps, and cloud-focused
-        technologies. Seeking a challenging role that leverages both development
-        and operational expertise
+        I am a Software Engineer with experience in Full-Stack
+        Development, Enterprise Production Support, Business
+        Intelligence, and Database Management. My professional
+        experience includes working with enterprise systems at
+        Deloitte and currently contributing to Business
+        Intelligence solutions at Motus Care Rental.
+      </p>
+
+      <p>
+        My development experience includes building web
+        applications using Python, Django, React, and REST APIs,
+        as well as designing database structures and system
+        architecture diagrams. I also have experience in
+        production support, troubleshooting live systems,
+        implementing SQL-based data fixes, conducting system
+        health checks, and supporting stable enterprise
+        applications.
+      </p>
+
+      <p>
+        In Business Intelligence, I work with Power BI,
+        Power Query, DAX, SQL Server, SSAS, and SSIS to
+        develop dashboards, reports, and support data
+        warehousing processes.
+      </p>
+
+      <p>
+        I enjoy solving technical problems, learning new
+        technologies, and developing solutions that improve
+        system performance and business processes. I am
+        continuously expanding my technical knowledge while
+        pursuing an Advanced Diploma in Computer Science.
       </p>
     </section>
   );
